@@ -7,3 +7,8 @@ sudo cp -av mate-screenlock.dpms.py /usr/local/bin/
 sudo cp mate-screenlock.dpms.desktop /usr/local/share/applications/
 ```
 Then make symlink to autostart directory or something like that.
+
+E.g.:
+```console
+sudo cp -av mate-screenlock.dpms.desktop /etc/xdg/autostart/
+```
