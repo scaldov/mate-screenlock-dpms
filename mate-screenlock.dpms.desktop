@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Mate Screen Lock DPMS
+Version=v0.1
+Icon=pupil-player
+Icon=/usr/share/icons/mate/scalable/apps/utilities-system-monitor-symbolic.svg
+Exec=python3 /usr/local/bin/mate-screenlock.dpms.py
+#Exec=sleep 10
+Terminal=false
+Type=Application
